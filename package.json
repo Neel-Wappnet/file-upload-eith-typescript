@@ -1,0 +1,33 @@
+{
+  "name": "file-upload-with-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/app.js",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q app.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neel-Wappnet/file-upload-eith-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Neel-Wappnet/file-upload-eith-typescript/issues"
+  },
+  "homepage": "https://github.com/Neel-Wappnet/file-upload-eith-typescript#readme",
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "@types/multer": "^1.4.7",
+    "@types/node": "^18.13.0",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
